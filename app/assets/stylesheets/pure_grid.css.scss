@@ -16,6 +16,9 @@
 
   -ms-align-content: flex-start;
   -webkit-align-content: flex-start;
+
+  display: flex;
+  flex-flow: row wrap;
   align-content: flex-start;
 }
 
