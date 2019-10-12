@@ -17,4 +17,5 @@ gem 'uglifier', '>= 1.3.0'
 gem 'listen'
 
 # Toggle this thredded gem in/out to view the bug (by restarting the app and resizing your browser window)
-gem 'thredded', '~> 0.16.13'
+# gem 'thredded', '~> 0.16.13'
+gem "autoprefixer-rails", '= 9.6.4'
