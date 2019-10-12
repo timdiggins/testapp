@@ -1,0 +1,64 @@
+@import 'mixins';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #F8F8F8;
+  font-family: $default_font_family;
+  margin: 0;
+  overflow-x: auto;
+  padding: 0;
+  position: relative;
+}
+
+#whole {
+  min-height: 100%;
+  position: relative;
+}
+
+.half {
+  width: 50%;
+}
+
+.third {
+  width: 33%;
+}
+
+.hidden {
+  display: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  text-align: center;
+}
+
+.central {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed_width {
+  padding-left: 9px;
+  padding-right: 9px;
+  max-width: $fixed_width_max_width;
+  margin-left: auto;
+  margin-right: auto;
+}
