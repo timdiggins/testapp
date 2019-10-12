@@ -16,5 +16,5 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'listen'
 
-# Including this thredded gem will change the css behavior for no apparent reason?
+# Toggle this thredded gem in/out to view the bug (by restarting the app and resizing your browser window)
 gem 'thredded', '~> 0.16.13'

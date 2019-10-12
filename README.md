@@ -1,24 +1,15 @@
-# README
+# Demo of Bug in Thredded
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo shows a demo of an unusual bug apparently caused by thredded.
 
-Things you may want to cover:
+If you comment out the thredded gem, you will see the index page shows Part 1, Part 2, and Part 3 all horizontally together on desktop. If you shorten your browser window, they will change into three lines.
 
-* Ruby version
+This is because it's set up with the pure css grid framework to be class "pure-u-1 pure-u-md-1-3"
 
-* System dependencies
+However, once you include the thredded gem, this behavior inexplicably breaks.
 
-* Configuration
+Working as Intended:
+![Working as Intended](https://raw.github.com/pickhardt/testapp/master/working-as-intended.png)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Bug:
+![Bug](https://raw.github.com/pickhardt/testapp/master/bug.png)
